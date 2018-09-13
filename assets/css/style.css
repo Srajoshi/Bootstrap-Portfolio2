@@ -1,0 +1,27 @@
+
+
+.media{
+  text-align: justify;
+
+}
+img{
+  width:200px;
+}
+
+img .wrap{
+  float: left;
+}
+
+#footer {
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  height: height-footer;
+  background-color: darkgray;
+  text-align: center;
+  border-top: orange;
+}
+.footer-block {
+    margin: 20px 0;
+  }
+
