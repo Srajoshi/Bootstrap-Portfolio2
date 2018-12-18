@@ -1,59 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <title>Seema Joshi</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body>
-<nav class="navbar navbar-expand navbar-dark bg-info text-white">
-  <a class="navbar-brand" href="#"><h2>Your Name</h2></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="">Portfolio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="contact.html">Contact
-        </a>
-      </li>
-    </ul>
-  </div>
+  <nav class="navbar navbar-expand navbar-dark bg-info text-white">
+    <a class="navbar-brand" href="#">
+      <h2>Seema Joshi</h2>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="">Portfolio</a>
+        </li>
+        <!-- <li class="nav-item"> -->
+          <!-- <a class="nav-link" href="contact.html">Contact -->
+          <!-- </a> -->
+        <!-- </li> -->
+      </ul>
+    </div>
   </nav>
 
-  <div class = "container">
+  <div class="container">
     <div class="row">
       <div class="col-md-12 col-xs-12 col-sm-12 mt-3">
-          <h4>Portfolio</h4>
-        <div class="col-md-12 col-sm-12 col-xs-12">
-        <img class="img-responsive float-left mr-3 mb-3" src="assets/images/boywithipad.jpg" alt="Word Guess" >
+        <h4>Portfolio:</h4><br>
+        <div class="card-deck">
+          <div class="card">
+            <img class="card-img-top" src="assets/images/Quisine.jpg" alt="A Recipe App">
+            <div class="card-body">
+              <!-- <h5 class="card-title">Quisine: </h5> -->
+              <a class="project-link" href="https://roopab77.github.io/ProjectQuisine/index.html">
+                <h5 class="card-title">Quisine: </h5>
+              </a>
 
-        <img class="img-responsive float left mr-3 mb-3" src="assets/images/wheel.jpg" alt="RPG Game" >
+              <p class="card-text">
+                Quisine: An app that allows users to search for recipes by cuisine, ingredient or recipe name. The
+                search results provide links to individual recipes, the ingredients and nutrition information. Users
+                can sign in using their google accounts to save recipes to their own separate page. Users can manage
+                their saved recipes by adding or deleting. <br><br>
 
-        <img class="img-responsive float-left mr-3 mb-3" src="assets/images/headphones.jpg" alt="Trivia Game" >
+                The app also displays a list of restaurants near the user if geolocation is enabled. <br><br>
 
-        <img class="img-responsive mr-3 mb-3" src="assets/images/ipod.jpg" alt="Info Widget" >
+                <h5>Technologies used:</h5> HTML, CSS, JavaScript, jQuery, geolocation, google authentication, Yelp API, Yummly
+                API, Firebase.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="assets/images/neXt.jpg" alt="Travel App">
+            <div class="card-body">
+              <a class="project-link" href="https://fast-plains-99333.herokuapp.com/.">
+                <h5 class="card-title">neXt:
+              </a></h5>
+              <p class="card-text">neXt : A travel app. The app provides users with the ability to plan their travel.
+                Users are required to create an account using passport. Once logged in, users can create a trip and add
+                various destinations. When a trip is saved, users can share the trip details via email. On trip
+                completion, users can add reviews for the trip and based on their experience with food, tours,
+                accommodations etc. <br><br>
 
-        <img class="img-responsive float-left mr-3 mb-3" src="assets/images/computer.jpg" alt="RPG" >  
-        </div>
-      </div>        
-    </div>
-  </div>
-      
-      <div id="footer">
-          <div class="container-fluid">
-            <p class="footer-block">@Copywrite</p>
+                The front page of the app displays 10 most recent reviews of various destinations from our database.
+                Users can also search for reviews for destinations. <br><br>
+
+                <h5>Technologies used:</h5> MVC framework, JavaScript, Node.js, Express, MySQL, Sequelize, Handlebars, passport,
+                various npm packages. </p><br><br>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="assets/images/WidgetWorld.jpg" alt="Widget World">
+            <div class="card-body">
+              <a class="project-link" href="https://damp-reef-74030.herokuapp.com/.">
+                <h5 class="card-title">Widget World:
+              </a></h5>
+              <p class="card-text">
+                Widget World: A MERN Stack Front to Back full stack application. This application allows users to
+                create a personalized avatar and use voice commands to navigate to different widgets which include
+                Weather, Calculator, Clock and Jokes. A trivia widget allows the user to test their knowledge in
+                various categories and your avatar can also shop on Walmart website! <br><br>
+
+                <h5>Technologies used:</h5> MongoDB, Express, React, Node.js, passport, litmogies, SpeechRecognition,
+                SpeechSynthesis, various npm packages, Trivia API, OpenWeatherMap API, Walmart API.<br><br></p>
+            </div>
           </div>
         </div>
-      
-      </body>
-      </html>
+      </div>
+    </div>
+  </div>
+  <div id="footer">
+    <div class="container-fluid">
+      <p class="footer-block">@2018Copywrite Seema Joshi</p>
+    </div>
+  </div>
+
+</body>
+
+</html>
