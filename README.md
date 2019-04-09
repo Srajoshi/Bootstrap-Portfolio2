@@ -1,2 +1,2 @@
-# Bootstrap-Portfolio2
+# Personal-Portfolio2
 A new repository for HW week 2 project
